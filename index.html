@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body id="myDiv" >
+  <div class="text-center">
+    <div data-role="page">
+  <div data-role="header" data-position="fixed">
+    <div class="header page-header" >
+  <h1><strong>INDIAN METEROLOGICAL DEPARTMENT</strong></h1>
+   <h2><strong>WEATHER APP</strong></h2>
+  </div>
+    </div>
+   <div class="row">
+     <div class="col-md-6">
+        <label style="font-size:20px">City:</label> 
+       <input type="text" style ="height:40px" placeholder="City" id="cit" value="">
+ <p style="font-size:12px;font-weight: bold;">(*Enter a City Name For Weather Information)<p>
+       </div>
+     <div class="col-md-6">
+     <label style="font-size:20px">Country Code:</label>
+      <input type="text" id="cou" style ="height:40px" placeholder="CountryCode">
+       </div>
+    </div>
+<button type="button"  title="click for Weather info" class="tog btn btn-primary" style="margin:2%" onClick="myFunction()">WEATHER INFO</button>
+ <p id="demo" style= "font-size:20px; height:110px;"></p>
+  <img id="image" style="height:120px">  
+  </div> 
+  <div class="text-center">
+ <button type="button" title ="Temp in Celsius"class="btn btn-primary" onClick="Celsius()" style="margin:20px">Celsius</button>
+    <p id="demo2" style= "font-size:20px" > </p>
+   </div>
+    </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.input-group{
+  margin:auto;
+  }
+.input-group div{
+  display: inline;
+  padding: 0 5%;
+}
+.heading{
+  margin:50px;
+ }
+#myDiv{
+   background:no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #ffe4b3;
+  }
+.header{
+   padding: 1em;
+    color: black;
+    
+    background-color:#b8b891;
+    clear: left;
+    text-align: center;
+    margin: 0px 0 80px 0px;
+}
